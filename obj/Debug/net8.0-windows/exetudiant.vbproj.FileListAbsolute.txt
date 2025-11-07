@@ -1,0 +1,17 @@
+C:\Users\Aya\source\repos\exetudiant\obj\Debug\net8.0-windows\exetudiant.Form1.resources
+C:\Users\Aya\source\repos\exetudiant\obj\Debug\net8.0-windows\exetudiant.vbproj.GenerateResource.cache
+C:\Users\Aya\source\repos\exetudiant\obj\Debug\net8.0-windows\exetudiant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aya\source\repos\exetudiant\obj\Debug\net8.0-windows\exetudiant.AssemblyInfoInputs.cache
+C:\Users\Aya\source\repos\exetudiant\obj\Debug\net8.0-windows\exetudiant.AssemblyInfo.vb
+C:\Users\Aya\source\repos\exetudiant\obj\Debug\net8.0-windows\exetudiant.vbproj.CoreCompileInputs.cache
+C:\Users\Aya\source\repos\exetudiant\bin\Debug\net8.0-windows\exetudiant.exe
+C:\Users\Aya\source\repos\exetudiant\bin\Debug\net8.0-windows\exetudiant.deps.json
+C:\Users\Aya\source\repos\exetudiant\bin\Debug\net8.0-windows\exetudiant.runtimeconfig.json
+C:\Users\Aya\source\repos\exetudiant\bin\Debug\net8.0-windows\exetudiant.dll
+C:\Users\Aya\source\repos\exetudiant\bin\Debug\net8.0-windows\exetudiant.pdb
+C:\Users\Aya\source\repos\exetudiant\obj\Debug\net8.0-windows\exetudiant.dll
+C:\Users\Aya\source\repos\exetudiant\obj\Debug\net8.0-windows\refint\exetudiant.dll
+C:\Users\Aya\source\repos\exetudiant\obj\Debug\net8.0-windows\exetudiant.pdb
+C:\Users\Aya\source\repos\exetudiant\obj\Debug\net8.0-windows\exetudiant.genruntimeconfig.cache
+C:\Users\Aya\source\repos\exetudiant\obj\Debug\net8.0-windows\ref\exetudiant.dll
+C:\Users\Aya\source\repos\exetudiant\obj\Debug\net8.0-windows\exetudiant.sourcelink.json
