@@ -23,182 +23,298 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
+        grvetement = New GroupBox()
+        rdpantallon = New RadioButton()
+        rdrobe = New RadioButton()
+        rdchemise = New RadioButton()
+        chkdefroissage = New CheckBox()
+        chkantitache = New CheckBox()
+        grnettoyage = New GroupBox()
+        rdlavage = New RadioButton()
+        rdreppassage = New RadioButton()
+        rdsc = New RadioButton()
+        grsupplement = New GroupBox()
+        DataGridView1 = New DataGridView()
+        vetement = New DataGridViewTextBoxColumn()
+        type_nettoyage = New DataGridViewTextBoxColumn()
+        supplement = New DataGridViewTextBoxColumn()
+        nombre = New DataGridViewTextBoxColumn()
+        textnb = New NumericUpDown()
         Label1 = New Label()
         btnajouter = New Button()
-        Textnom = New TextBox()
-        Textnote = New TextBox()
         btnannuler = New Button()
-        Label2 = New Label()
-        Label3 = New Label()
-        Textprenom = New TextBox()
-        btnafficher = New Button()
-        DataGridView1 = New DataGridView()
-        nom = New DataGridViewTextBoxColumn()
-        prenom = New DataGridViewTextBoxColumn()
-        note = New DataGridViewTextBoxColumn()
         ErrorProvider1 = New ErrorProvider(components)
-        Btnmoy = New Button()
+        code = New DataGridViewTextBoxColumn()
+        grvetement.SuspendLayout()
+        grnettoyage.SuspendLayout()
+        grsupplement.SuspendLayout()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(textnb, ComponentModel.ISupportInitialize).BeginInit()
         CType(ErrorProvider1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
-        ' Label1
+        ' grvetement
         ' 
-        Label1.AutoSize = True
-        Label1.Location = New Point(136, 59)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(39, 20)
-        Label1.TabIndex = 0
-        Label1.Text = "nom"
+        grvetement.AccessibleName = "grvetement"
+        grvetement.Controls.Add(rdpantallon)
+        grvetement.Controls.Add(rdrobe)
+        grvetement.Controls.Add(rdchemise)
+        grvetement.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        grvetement.Location = New Point(289, 12)
+        grvetement.Name = "grvetement"
+        grvetement.Size = New Size(178, 235)
+        grvetement.TabIndex = 0
+        grvetement.TabStop = False
+        grvetement.Text = "choix vetement"
         ' 
-        ' btnajouter
+        ' rdpantallon
         ' 
-        btnajouter.Location = New Point(111, 202)
-        btnajouter.Name = "btnajouter"
-        btnajouter.Size = New Size(94, 29)
-        btnajouter.TabIndex = 1
-        btnajouter.Text = "ajouter"
-        btnajouter.UseVisualStyleBackColor = True
+        rdpantallon.AutoSize = True
+        rdpantallon.Location = New Point(6, 41)
+        rdpantallon.Name = "rdpantallon"
+        rdpantallon.Size = New Size(92, 24)
+        rdpantallon.TabIndex = 1
+        rdpantallon.TabStop = True
+        rdpantallon.Text = "pantalon"
+        rdpantallon.UseVisualStyleBackColor = True
         ' 
-        ' Textnom
+        ' rdrobe
         ' 
-        Textnom.Location = New Point(229, 56)
-        Textnom.Name = "Textnom"
-        Textnom.Size = New Size(125, 27)
-        Textnom.TabIndex = 2
+        rdrobe.AutoSize = True
+        rdrobe.Location = New Point(0, 81)
+        rdrobe.Name = "rdrobe"
+        rdrobe.Size = New Size(62, 24)
+        rdrobe.TabIndex = 3
+        rdrobe.TabStop = True
+        rdrobe.Text = "robe"
+        rdrobe.UseVisualStyleBackColor = True
         ' 
-        ' Textnote
+        ' rdchemise
         ' 
-        Textnote.Location = New Point(229, 113)
-        Textnote.Name = "Textnote"
-        Textnote.Size = New Size(125, 27)
-        Textnote.TabIndex = 3
+        rdchemise.AutoSize = True
+        rdchemise.Location = New Point(0, 133)
+        rdchemise.Name = "rdchemise"
+        rdchemise.Size = New Size(87, 24)
+        rdchemise.TabIndex = 4
+        rdchemise.TabStop = True
+        rdchemise.Text = "chemise"
+        rdchemise.UseVisualStyleBackColor = True
         ' 
-        ' btnannuler
+        ' chkdefroissage
         ' 
-        btnannuler.Location = New Point(81, 292)
-        btnannuler.Name = "btnannuler"
-        btnannuler.Size = New Size(94, 29)
-        btnannuler.TabIndex = 4
-        btnannuler.Text = "annuler"
-        btnannuler.UseVisualStyleBackColor = True
+        chkdefroissage.AutoSize = True
+        chkdefroissage.Location = New Point(51, 42)
+        chkdefroissage.Name = "chkdefroissage"
+        chkdefroissage.Size = New Size(112, 24)
+        chkdefroissage.TabIndex = 6
+        chkdefroissage.Text = "défroissage"
+        chkdefroissage.UseVisualStyleBackColor = True
         ' 
-        ' Label2
+        ' chkantitache
         ' 
-        Label2.AutoSize = True
-        Label2.Location = New Point(136, 113)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(39, 20)
-        Label2.TabIndex = 5
-        Label2.Text = "note"
+        chkantitache.AutoSize = True
+        chkantitache.Location = New Point(62, 72)
+        chkantitache.Name = "chkantitache"
+        chkantitache.Size = New Size(100, 24)
+        chkantitache.TabIndex = 7
+        chkantitache.Text = "anti tache"
+        chkantitache.UseVisualStyleBackColor = True
         ' 
-        ' Label3
+        ' grnettoyage
         ' 
-        Label3.AutoSize = True
-        Label3.Location = New Point(141, 152)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(61, 20)
-        Label3.TabIndex = 6
-        Label3.Text = "prénom"
+        grnettoyage.AccessibleName = "grtype"
+        grnettoyage.Controls.Add(rdlavage)
+        grnettoyage.Controls.Add(rdreppassage)
+        grnettoyage.Controls.Add(rdsc)
+        grnettoyage.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        grnettoyage.Location = New Point(12, 54)
+        grnettoyage.Name = "grnettoyage"
+        grnettoyage.Size = New Size(249, 193)
+        grnettoyage.TabIndex = 8
+        grnettoyage.TabStop = False
+        grnettoyage.Text = "type nettoyage"
         ' 
-        ' Textprenom
+        ' rdlavage
         ' 
-        Textprenom.Location = New Point(272, 158)
-        Textprenom.Name = "Textprenom"
-        Textprenom.Size = New Size(125, 27)
-        Textprenom.TabIndex = 7
+        rdlavage.AutoSize = True
+        rdlavage.Location = New Point(14, 77)
+        rdlavage.Name = "rdlavage"
+        rdlavage.Size = New Size(75, 24)
+        rdlavage.TabIndex = 2
+        rdlavage.TabStop = True
+        rdlavage.Text = "lavage"
+        rdlavage.UseVisualStyleBackColor = True
         ' 
-        ' btnafficher
+        ' rdreppassage
         ' 
-        btnafficher.Location = New Point(111, 257)
-        btnafficher.Name = "btnafficher"
-        btnafficher.Size = New Size(94, 29)
-        btnafficher.TabIndex = 8
-        btnafficher.Text = "afficher"
-        btnafficher.UseVisualStyleBackColor = True
+        rdreppassage.AutoSize = True
+        rdreppassage.Location = New Point(26, 127)
+        rdreppassage.Name = "rdreppassage"
+        rdreppassage.Size = New Size(109, 24)
+        rdreppassage.TabIndex = 1
+        rdreppassage.TabStop = True
+        rdreppassage.Text = "reppassage"
+        rdreppassage.UseVisualStyleBackColor = True
+        ' 
+        ' rdsc
+        ' 
+        rdsc.AccessibleName = ""
+        rdsc.AutoSize = True
+        rdsc.Location = New Point(14, 47)
+        rdsc.Name = "rdsc"
+        rdsc.Size = New Size(126, 24)
+        rdsc.TabIndex = 0
+        rdsc.TabStop = True
+        rdsc.Text = "nettayage sec"
+        rdsc.UseVisualStyleBackColor = True
+        ' 
+        ' grsupplement
+        ' 
+        grsupplement.Controls.Add(chkdefroissage)
+        grsupplement.Controls.Add(chkantitache)
+        grsupplement.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        grsupplement.Location = New Point(49, 279)
+        grsupplement.Name = "grsupplement"
+        grsupplement.Size = New Size(250, 125)
+        grsupplement.TabIndex = 9
+        grsupplement.TabStop = False
+        grsupplement.Text = "supplement"
         ' 
         ' DataGridView1
         ' 
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Columns.AddRange(New DataGridViewColumn() {nom, prenom, note})
-        DataGridView1.Location = New Point(300, 231)
+        DataGridView1.Columns.AddRange(New DataGridViewColumn() {vetement, type_nettoyage, supplement, nombre, code})
+        DataGridView1.Location = New Point(396, 253)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(471, 188)
-        DataGridView1.TabIndex = 9
+        DataGridView1.Size = New Size(660, 188)
+        DataGridView1.TabIndex = 10
         ' 
-        ' nom
+        ' vetement
         ' 
-        nom.HeaderText = "Nom"
-        nom.MinimumWidth = 6
-        nom.Name = "nom"
-        nom.Width = 125
+        vetement.HeaderText = "vetement"
+        vetement.MinimumWidth = 6
+        vetement.Name = "vetement"
+        vetement.Width = 125
         ' 
-        ' prenom
+        ' type_nettoyage
         ' 
-        prenom.HeaderText = "Prenom"
-        prenom.MinimumWidth = 6
-        prenom.Name = "prenom"
-        prenom.Width = 125
+        type_nettoyage.HeaderText = "type_nettoyage"
+        type_nettoyage.MinimumWidth = 6
+        type_nettoyage.Name = "type_nettoyage"
+        type_nettoyage.Width = 125
         ' 
-        ' note
+        ' supplement
         ' 
-        note.HeaderText = "Note"
-        note.MinimumWidth = 6
-        note.Name = "note"
-        note.Width = 125
+        supplement.HeaderText = "supplement"
+        supplement.MinimumWidth = 6
+        supplement.Name = "supplement"
+        supplement.Width = 125
+        ' 
+        ' nombre
+        ' 
+        nombre.HeaderText = "nombre"
+        nombre.MinimumWidth = 6
+        nombre.Name = "nombre"
+        nombre.Width = 125
+        ' 
+        ' textnb
+        ' 
+        textnb.Location = New Point(731, 154)
+        textnb.Name = "textnb"
+        textnb.Size = New Size(150, 27)
+        textnb.TabIndex = 11
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(573, 161)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(144, 23)
+        Label1.TabIndex = 12
+        Label1.Text = "nombre d'article"
+        ' 
+        ' btnajouter
+        ' 
+        btnajouter.ForeColor = Color.Red
+        btnajouter.Location = New Point(597, 88)
+        btnajouter.Name = "btnajouter"
+        btnajouter.Size = New Size(94, 29)
+        btnajouter.TabIndex = 13
+        btnajouter.Text = "Ajouter"
+        btnajouter.UseVisualStyleBackColor = True
+        ' 
+        ' btnannuler
+        ' 
+        btnannuler.ForeColor = Color.Red
+        btnannuler.Location = New Point(787, 88)
+        btnannuler.Name = "btnannuler"
+        btnannuler.Size = New Size(94, 29)
+        btnannuler.TabIndex = 14
+        btnannuler.Text = "annuler"
+        btnannuler.UseVisualStyleBackColor = True
         ' 
         ' ErrorProvider1
         ' 
         ErrorProvider1.ContainerControl = Me
         ' 
-        ' Btnmoy
+        ' code
         ' 
-        Btnmoy.Location = New Point(70, 386)
-        Btnmoy.Name = "Btnmoy"
-        Btnmoy.Size = New Size(94, 29)
-        Btnmoy.TabIndex = 10
-        Btnmoy.Text = "moyenne"
-        Btnmoy.UseVisualStyleBackColor = True
+        code.HeaderText = "code"
+        code.MinimumWidth = 6
+        code.Name = "code"
+        code.Width = 125
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
-        Controls.Add(Btnmoy)
-        Controls.Add(DataGridView1)
-        Controls.Add(btnafficher)
-        Controls.Add(Textprenom)
-        Controls.Add(Label3)
-        Controls.Add(Label2)
+        ClientSize = New Size(1068, 505)
         Controls.Add(btnannuler)
-        Controls.Add(Textnote)
-        Controls.Add(Textnom)
         Controls.Add(btnajouter)
         Controls.Add(Label1)
+        Controls.Add(textnb)
+        Controls.Add(DataGridView1)
+        Controls.Add(grsupplement)
+        Controls.Add(grnettoyage)
+        Controls.Add(grvetement)
         Name = "Form1"
         Text = "Form1"
+        grvetement.ResumeLayout(False)
+        grvetement.PerformLayout()
+        grnettoyage.ResumeLayout(False)
+        grnettoyage.PerformLayout()
+        grsupplement.ResumeLayout(False)
+        grsupplement.PerformLayout()
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
+        CType(textnb, ComponentModel.ISupportInitialize).EndInit()
         CType(ErrorProvider1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
+    Friend WithEvents grvetement As GroupBox
+    Friend WithEvents rdpantallon As RadioButton
+    Friend WithEvents rdrobe As RadioButton
+    Friend WithEvents rdchemise As RadioButton
+    Friend WithEvents chkdefroissage As CheckBox
+    Friend WithEvents chkantitache As CheckBox
+    Friend WithEvents grnettoyage As GroupBox
+    Friend WithEvents rdlavage As RadioButton
+    Friend WithEvents rdreppassage As RadioButton
+    Friend WithEvents rdsc As RadioButton
+    Friend WithEvents grsupplement As GroupBox
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents textnb As NumericUpDown
+    Friend WithEvents vetement As DataGridViewTextBoxColumn
+    Friend WithEvents type_nettoyage As DataGridViewTextBoxColumn
+    Friend WithEvents supplement As DataGridViewTextBoxColumn
+    Friend WithEvents nombre As DataGridViewTextBoxColumn
     Friend WithEvents Label1 As Label
     Friend WithEvents btnajouter As Button
-    Friend WithEvents Textnom As TextBox
-    Friend WithEvents Textnote As TextBox
     Friend WithEvents btnannuler As Button
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Textprenom As TextBox
-    Friend WithEvents btnafficher As Button
-    Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents ErrorProvider1 As ErrorProvider
-    Friend WithEvents nom As DataGridViewTextBoxColumn
-    Friend WithEvents prenom As DataGridViewTextBoxColumn
-    Friend WithEvents note As DataGridViewTextBoxColumn
-    Friend WithEvents Btnmoy As Button
+    Friend WithEvents code As DataGridViewTextBoxColumn
 
 End Class
