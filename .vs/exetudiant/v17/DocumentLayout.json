@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aya\\source\\repos\\exetudiant\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A3FD2E-296B-42CC-8A31-89C6F10C7ECF}|exetudiant.vbproj|c:\\users\\aya\\source\\repos\\exetudiant\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B7A3FD2E-296B-42CC-8A31-89C6F10C7ECF}|exetudiant.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A3FD2E-296B-42CC-8A31-89C6F10C7ECF}|exetudiant.vbproj|c:\\users\\aya\\source\\repos\\exetudiant\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B7A3FD2E-296B-42CC-8A31-89C6F10C7ECF}|exetudiant.vbproj|solutionrelative:module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A3FD2E-296B-42CC-8A31-89C6F10C7ECF}|exetudiant.vbproj|c:\\users\\aya\\source\\repos\\exetudiant\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B7A3FD2E-296B-42CC-8A31-89C6F10C7ECF}|exetudiant.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Aya\\source\\repos\\exetudiant\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\Aya\\source\\repos\\exetudiant\\Form1.vb",
+              "RelativeToolTip": "Form1.vb",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-22T12:35:06.189Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Module1.vb",
+              "DocumentMoniker": "C:\\Users\\Aya\\source\\repos\\exetudiant\\Module1.vb",
+              "RelativeDocumentMoniker": "Module1.vb",
+              "ToolTip": "C:\\Users\\Aya\\source\\repos\\exetudiant\\Module1.vb",
+              "RelativeToolTip": "Module1.vb",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-22T12:24:58.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.vb [Conception]",
+              "DocumentMoniker": "C:\\Users\\Aya\\source\\repos\\exetudiant\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\Aya\\source\\repos\\exetudiant\\Form1.vb [Conception]",
+              "RelativeToolTip": "Form1.vb [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-22T12:16:13.045Z",
+              "EditorCaption": " [Conception]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
